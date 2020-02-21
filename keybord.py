@@ -36,16 +36,3 @@ def citys():
     ret = types.InlineKeyboardButton(text="◀Вернуться в главное меню", callback_data="return")
     keybord.add(key_change, ret)
     return keybord
-
-
-# def films():
-#     films_list = get_films()
-#     keybord = types.InlineKeyboardMarkup()
-#     for i in films_list:
-#         keybord.add(types.InlineKeyboardButton(text=f"", callback_data=f"courses_currency_{i}"))
-#     keybord.add(types.InlineKeyboardButton(text="◀Вернуться в главное меню", callback_data="return"))
-
-
-
-
-
