@@ -22,7 +22,7 @@ def start_message(message):
 @bot.message_handler(content_types=['text'])
 def sent_text(message):
     chat_id = message.chat.id
-    if message.text == 'Привет': #or 'привет' or 'ghbdtn' or 'Привет)' or 'привет)':
+    if message.text == 'Привет':
         bot.send_message(chat_id, 'Привет)')
     elif message.text == '$Курсы валют':
         text = "↓Выберите валюту"
